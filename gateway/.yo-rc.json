@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "applicationType": "gateway",
+    "baseName": "jhipster",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1713846549851,
+    "serverPort": "8081",
+    "packageName": "com.jhipster.node",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "authenticationType": "jwt",
+    "clientFramework": "angularX",
+    "withAdminUi": true,
+    "clientTheme": "none",
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "packageFolder": "com/jhipster/node",
+    "jwtSecretKey": "MTcyZmRhMWM2NWM4YmU5NzhjNmZmZjFmM2U1MmMzYmFiMGM2ZTBhMTJhOGM5ZTNjMDhlMWZlMDMzNmYyMTk0OWZkMzU1YjgyMWI2ZGMzOTJlYzE2MmM0MjlmOTExZmJmMThjZThjZjU3NjVlMjBiNTZhM2RiOWU3ZTdmMjIwYzg=",
+    "serviceDiscoveryType": false,
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableHibernateCache": false,
+    "clientPackageManager": "npm",
+    "clientThemeVariant": "",
+    "otherModules": [],
+    "cacheProvider": "ehcache",
+    "buildTool": "maven",
+    "reactive": false,
+    "languages": ["en", "fr"]
+  }
+}

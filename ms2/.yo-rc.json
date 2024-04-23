@@ -1,0 +1,49 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "applicationType": "microservice",
+    "baseName": "ms2",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "skipServer": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1713847046060,
+    "serverPort": "8081",
+    "packageName": "com.jhipster.node",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "authenticationType": "jwt",
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "packageFolder": "com/jhipster/node",
+    "jwtSecretKey": "ZmYzM2U5ZGQ3MjhmOTJhM2I2Mjc0NTRiZWI3YWJiMDRlMTAxOTUxZDQ1NWYxNGMwOTQwZWVmNmViZmRkNWJkZTJkOTA3M2MwNmVkYTk2YmNiYjQ1Nzc1M2I3ZDQ5YjE4Yzk4NzZiNDk5MmNiYmY1MzYyM2I2NTA5ZGY2OTU3YWI=",
+    "serviceDiscoveryType": false,
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableHibernateCache": false,
+    "cacheProvider": "ehcache",
+    "buildTool": "maven",
+    "reactive": false,
+    "languages": ["en", "fr"]
+  }
+}
